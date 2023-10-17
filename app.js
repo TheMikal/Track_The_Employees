@@ -191,7 +191,7 @@ const addEmployee = async () => {
             ["last_name", "lastName"],
         ],
     });
-    managers = managers.map((manager) => {
+    managersInfo = managers.map((manager) => {
         manager.get({ plain: true });
         const managerInfo = manager.get();
         return {
@@ -223,7 +223,7 @@ const addEmployee = async () => {
                 type: "list",
                 message: "Employee's Manager",
                 name: "manager_id",
-                choices: managers,
+                choices: managersInfo,
             },
         ])
         .then((answer) => {
@@ -256,7 +256,7 @@ const updateEmployeeRole = async () => {
             ["title", "name"],
         ],
     });
-    roles = roles.map((role) => role.get({ plain: true }));
+    rolesInfo = roles.map((role) => role.get({ plain: true }));
 
     inquirer
         .prompt([
@@ -270,7 +270,7 @@ const updateEmployeeRole = async () => {
                 type: "list",
                 message: "Updated Role Name",
                 name: "role_id",
-                choices: roles,
+                choices: rolesInfo,
             },
         ])
         .then((answer) => {
