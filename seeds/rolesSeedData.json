@@ -1,0 +1,27 @@
+[
+    { 
+        "title": "Manager",
+        "salary": 80000, 
+        "department_id": 1 
+    },
+    { 
+        "title": "Sales Associate", 
+        "salary": 50000, 
+        "department_id": 1 
+    },
+    { 
+        "title": "Accountant", 
+        "salary": 60000, 
+        "department_id": 2 
+    },
+    { 
+        "title": "HR Specialist", 
+        "salary": 55000, 
+        "department_id": 3 
+    },
+    { 
+        "title": "Marketing Coordinator", 
+        "salary": 55000, 
+        "department_id": 4 
+    }
+]

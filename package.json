@@ -1,0 +1,19 @@
+{
+  "name": "track_the_employees",
+  "version": "1.0.0",
+  "description": "employee-tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0"
+  }
+}
