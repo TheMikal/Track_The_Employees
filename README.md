@@ -6,7 +6,9 @@ Using this app you can keep track of your employees, adjust their pay or the dep
 
 To use the app clone the repo and open the files in a code editor, like VSCode. Once open a terminal and run the start script with ` npm start ` and follow the prompts on screen with your arrow keys
 
+## Video Walkthrough
 
+https://youtu.be/P88cNNxGQew
 
 ## Screenshots
 
